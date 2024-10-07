@@ -5,6 +5,7 @@ import Header from './Components/Layouts/Header.jsx';
 import Loader from './Components/Loader.jsx';
 import Footer from './Components/Layouts/Footer.jsx';
 import About from './Components/About.jsx';
+// import Hero from './Components/Hero.jsx';
 import Contect from './Components/Contect.jsx';
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/about" element={<Hero />} />
+        <Route path="/about" element={<About />} />
         <Route path="/" element={<Home />} />
         <Route path='/contact' element={<Contect/>} />
       </Routes>
